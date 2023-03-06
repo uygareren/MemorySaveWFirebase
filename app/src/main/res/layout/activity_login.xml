@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/BackgroundColor"
+    tools:context=".Activities.Activities.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="40sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:textSize="45dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="40sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="@color/white"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:text="E-mail"/>
+
+
+        <EditText
+
+            android:id="@+id/email_edit_text"
+            android:drawableStart="@drawable/ic_email"
+            android:paddingLeft="10dp"
+            android:drawablePadding="20dp"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/customize_login_register_edittext"
+            android:hint="Enter Your E-mail Adress"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
+
+        </EditText>
+
+        <TextView
+
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="@color/white"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:text="Password"/>
+
+        <EditText
+
+            android:id="@+id/password_edit_text"
+            android:drawableStart="@drawable/ic_password"
+            android:paddingLeft="10dp"
+            android:drawablePadding="20dp"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:inputType="textPassword"
+            android:hint="******"
+            android:textColor="@color/white"
+            android:background="@drawable/customize_login_register_edittext"
+            android:textColorHint="@color/white">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login_button"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customizce_button_login_register"
+            android:backgroundTint="@color/white"
+            android:text="Log in"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:onClick="loginClick"
+            android:textColor="@color/txtColor">
+
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-OR-"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="15dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create an Account!"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:onClick="goRegisterTextViewClick"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

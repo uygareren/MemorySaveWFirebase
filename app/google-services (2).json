@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "261637552243",
+    "project_id": "photo-save-project",
+    "storage_bucket": "photo-save-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261637552243:android:b03af306ce85dd3f405206",
+        "android_client_info": {
+          "package_name": "com.example.photosaveprojectwfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261637552243-de9fgjktn1ni3dsfn1scngt90mokj3c1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJDOx4GNguM_c-CjKn1bNNPsdUB0S2hEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261637552243-de9fgjktn1ni3dsfn1scngt90mokj3c1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

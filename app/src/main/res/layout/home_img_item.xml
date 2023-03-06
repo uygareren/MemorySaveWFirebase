@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="15dp"
+    android:background="@color/white">
+    
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/home_img_item_ImageView"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/gorsel_sec">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/home_img_item_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Konum"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/home_img_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zaman"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/home_img_item_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Açıklama"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:maxLines="2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+    </LinearLayout>
+
+
+
+</LinearLayout>
